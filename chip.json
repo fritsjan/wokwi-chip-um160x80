@@ -1,13 +1,27 @@
 {
   "version": 1,
-  "name": "Inverter",
-  "author": "Uri Shaked",
+  "name": "ST7735 [80x160]",
+  "author": "Marty Sweet edited by productbakery",
   "license": "MIT",
-  "docs": "https://github.com/wokwi/inverter-chip/blob/main/docs/README.md",
+  "docs": "https://github.com/martysweet/st7735-wokwi-chip/blob/main/docs/README.md",
   "pins": [
-    "OUT",
-    "IN",
+    "SCK",
+    "MOSI",
+    "CS",
+    "DC",
+    "RST",
     "VCC",
-    "GND"
-  ]
+    "GND",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "display": {
+    "width": 80,
+    "height": 160
+  }
 }
